@@ -1,0 +1,97 @@
+body{
+	margin:0px;
+}
+
+.thumbonail-slider{
+	width:100%;
+	float:left;
+	overflow:hidden;
+}
+.thumb-container{
+	width:100%;
+	float:left;
+	transition:margin 1s ease;
+}
+
+.item{
+	height:250px;
+	background:gray;
+	line-height:250px;
+	text-align:center;
+	color:#ffff;
+	float:left;
+	font-size:50px;
+}
+
+.control ul{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	text-align:center;
+}
+
+.control ul li{
+	display:inline-block;
+	margin:5px;
+	width:40px;
+	height:40px;
+	border:1px solid black;
+	text-align:center;
+	line-height:40px;
+	cursor:pointer;
+}
+
+.active{
+	background:green;
+}
+
+.menu{
+	position:fixed;
+	left:-250px;
+	top:260px;
+	width:250px;
+	height:100%;
+	background:rgba(0,0,0,0.6);
+	z-index:10;
+	transition:.5s;
+	
+}
+
+
+.menu ul{
+	margin-top:50px;
+	padding:0px;
+	list-style:none;
+}
+
+.menu ul li a{
+	text-decoration:none;
+	color:#ffff;
+	text-transform:uppercase;
+	font-family:tahoma;
+	font-size:18px;
+	padding:20px 20px;
+	display:block;
+	
+	
+}
+
+.close{
+	position:absolute;
+	color:black;
+	top: 10px;
+	right: 15px;
+	font-size:25px;
+	cursor:pointer;
+	z-index:15;
+}
+
+
+.bar .fa{
+	position:absolute;
+	top: 270px;
+	left: 160px;
+	cursor:pointer;
+	color:red;
+	font-size:30px;
+}
